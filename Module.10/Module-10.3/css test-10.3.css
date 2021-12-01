@@ -1,0 +1,80 @@
+.header {
+  max-width: 800px;
+  margin: 0 avto;
+}
+.container-header {
+  width: 800px;
+  display: inline-flex;
+  justify-content: center;
+}
+.border {
+  border: 4px solid rgb(150, 200, 247);
+}
+.info-output {
+  font-size: 14px;
+  color: gray;
+}
+.output {
+  display: flex;
+  justify-content: flex-end;
+  border: 4px solid rgb(150, 200, 247);
+}
+.input {
+  height: 40px;
+  margin: 10px 0 10px 0;
+  flex-grow: 2;
+  padding-left: 10px;
+}
+.btn {
+  background-color: rgb(150, 200, 247);
+  color: black;
+}
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgb(189, 203, 216, 0.3);
+  transform: scale(1.05);
+}
+.j-btn-open {
+  flex-grow: 1;
+  margin: 10px;
+  font-size: 20px;
+}
+.j-btn-geo-location {
+  flex-grow: 1;
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+.chat-container {
+  width: 800px;
+  min-height: 500px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.serverMessage {
+  max-width: 70%;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 4px solid rgb(150, 200, 247);
+  border-radius: 10px;
+  align-self: flex-start;
+}
+.clientMessage {
+  max-width: 70%;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 4px solid rgb(150, 200, 247);
+  border-radius: 10px;
+  align-self: flex-end;
+}
+.geoLocation {
+  max-width: 70%;
+  margin: 10px 10px;
+  padding: 10px;
+  border: 4px solid rgb(150, 200, 247);
+  border-radius: 10px;
+  align-self: flex-end;
+}
+.mapLink {
+  font-size: 14px;
+}
